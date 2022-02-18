@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es2017",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "src",
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"],
+  "compileOnSave": true
+}
